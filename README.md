@@ -1,87 +1,77 @@
-# Welcome to React Router!
+# ✨ Lume Studio
 
-A modern, production-ready template for building full-stack React applications using React Router.
+Lume Studio is an AI-powered architectural visualization SaaS platform built with React, TypeScript, and Puter.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+It transforms 2D floor plans into photorealistic 3D renders using advanced AI models — from Claude to Gemini — with permanent hosting, persistent metadata, and a global community feed.
+
+Designed with a minimal interface and built for performance, scalability, and modern cloud architecture.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- 🏗 2D → 3D AI Rendering
+- 🤖 Multi-Model AI Integration
+- ☁️ Serverless Workers (Puter)
+- 🌍 Global Community Feed
+- 🔐 Authentication System
+- 🎨 Minimal UI Design
+- 📱 Fully Responsive
 
-## Getting Started
+## Tech Stack
 
-### Installation
+**Frontend**
 
-Install the dependencies:
+- React
+
+- TypeScript
+
+- Modern UI architecture
+
+**Backend / Infrastructure**
+
+- Puter (Serverless Workers & KV Storage)
+
+- AI Model Integrations (Claude, Gemini)
+
+- Persistent Cloud Hosting
+
+## 📦 Installation
+
+- Clone the repository
+
+```bash
+git clone https://github.com/lachimolala2628/lume-studio.git
+npm install
+```
+
+## 🛠️ Usage
+
+- Navigate to the project directory
+
+```bash 
+cd lume-studio
+```
+
+- Install dependencies
 
 ```bash
 npm install
 ```
 
-### Development
+- Configure Environment Variables
 
-Start the development server with HMR:
+Create a .env file and add necessary API keys and configuration:
+
+```bash
+VITE_PUTER_WORKER_URL=YOUR_VITE_PUTER_WORKER_URL
+```
+
+- Run the development server
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+## 👋🏻 Author
 
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+**Ayush Kumar**
+Frontend Developer with a focus on clean, scalable, and reliable web applications.
