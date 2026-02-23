@@ -22,6 +22,8 @@ Designed with a minimal interface and built for performance, scalability, and mo
 
 - React
 
+- Vite
+
 - TypeScript
 
 - Modern UI architecture
